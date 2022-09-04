@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Tracing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <h2>Contact Tracing</h2>
+      <form action="process.php" method="POST">
+
+        <div>
+          <label><b>Full Name:</b></label>
+          <input type="text" name="full-name" placeholder="Enter full name" class="box1">
+        </div>
+
+        <br />
+
+        <div>
+          <label><b>Gender:</b></label>
+          <select name="gender" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <br />
+
+        <div>
+          <label><b>Address:</b></label>
+          <input type="text" name="address" 
+          placeholder="Enter current address" 
+          class="box1">
+        </div>
+
+        <br />
+
+        <div>
+          <label><b>Contact Number:</b></label>
+          <input
+            type="text"
+            name="contact-number"
+            placeholder="Enter mobile number"
+            class="box1">
+        </div>
+
+        <br />
+
+        <div>
+          <label><b>Current Temperature:</b></label>
+          <input
+            type="number"
+            name="current-temperature"
+            placeholder="Current temperature (°C)"
+            class="box1">
+        </div>
+
+        <br />
+
+        <div>
+          <label><b>Comment:</b></label>
+          <textarea
+            name="comment"
+            placeholder="Write a comment"
+            cols="39"
+            rows="5"
+            class="box1">
+          </textarea>
+          </div>
+
+          <br/>
+
+          <div class="submit">
+            <a href="contact_tracing.html">Submit</a>
+          </div>
+
+          <br>
+          <br>
+          <div class="login">
+            <a href="admin.html">Log In Admin
+            </a>
+          </div>
+          
+
+      </form>
+      <div style="margin: auto 500px"></div>
+    </div>
+    
+  </body>
+</html>

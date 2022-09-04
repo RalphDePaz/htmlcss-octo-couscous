@@ -1,0 +1,154 @@
+body {
+    align-items: center;
+    background-color: rgb(228, 186, 196);
+    font-family:'Monteserrat', sans-serif;
+  }
+  .container{
+    background-color: #3c82c8;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 600px;
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+  .submit{
+    background-color: rgba(255, 6, 69, 0.655);
+  border-radius: 12px;
+  border: 5;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+  .login{
+  cursor: pointer;
+  font-size: 13px;
+  height: 13px;
+  margin-top: -10px;
+  text-align: right;
+  }
+  .admin{
+    background-color: #3c82c8;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .abut{
+    background-color: rgb(228, 40, 84, 0.458);
+  border-radius: 30px;
+  border: 5;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 20px;
+  height: 30px;
+  margin-top: 5px;
+  outline: 5;
+  text-align:center;
+  width: 100%;
+  }
+
+  .record_body{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .record_body tead tr{
+    background-color: #1d0000;
+    color: #eee;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .record_body th,
+  .record_body td {
+    padding: 12px 15px;
+  }
+
+  .record_body tbody tr{
+    border-bottom: 1px solid black;
+  }
+
+  .record_body tbody tr:nth-of-type(even){
+    background-color: antiquewhite;
+  }
+
+  .record_body tbody tr:last-of-type{
+    border-bottom: #016fff;
+  }
+
+  .record_body{
+    background-color: #ebb7b7;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 550px;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .record {
+  border-radius: 12px;
+  border: 100px;
+  box-sizing: border-box;
+  color: rgb(34, 105, 206);
+  font-size: 25px;
+  height: 50px;
+  margin-top: 10px;
+  outline: 10;
+  text-align: center;
+  }
+
+  .record_button1{
+    background-color: #ff000091;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 15px;
+    width: 125px;
+    margin: auto;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .box {
+    padding: 8px;
+    border-radius:10px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .box1 {
+    padding: 5px;
+    border-radius:10px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .log1{
+    padding: 20px;
+    border-radius:px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: right;
+  }
